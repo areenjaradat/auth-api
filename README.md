@@ -10,7 +10,7 @@
 
 - [PR link](https://github.com/areenjaradat/bearer-auth/pulls)
 
-- [main Deployed heroku](https://areenjarad-bearer-auth.herokuapp.com)
+- [main Deployed heroku](https://areen-auth-api-server.herokuapp.com)
 
 ### Setup
 
