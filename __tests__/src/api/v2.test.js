@@ -18,7 +18,7 @@ beforeAll(async (done)=>{
 const user1={username:'admin'};
 const token = jwt.sign(user1,process.env.SECRET);
 let id;
-console.log(token);
+
 describe('test api/v2/food',()=>{
   it(' POST /food', async () => {
     const response = await request.post('/api/v2/food').send({name:'patata',calories: 10,type:'VEGETABLE'}).set('Authorization', `Bearer ${token}`);
